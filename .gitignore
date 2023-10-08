@@ -1,0 +1,32 @@
+# Compiled Object files
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Binaries, executables, and libraries
+*.out
+*.exe
+*.dll
+*.test
+*.prof
+
+# Go-specific
+# Binary directories (default when running 'go install' without -o)
+bin/
+pkg/
+
+# Dependency directories (use with modules)
+vendor/
+
+# IDE-specific (e.g., Visual Studio Code)
+.vscode/
+
+# GoLand IDE
+.idea/
+
+# macOS-specific
+.DS_Store

@@ -60,6 +60,8 @@ func main() {
 	}
 }
 
+//=============================================================================
+
 // createFile creates an empty file with the given name
 func createFile(filename string) {
 	_, err := os.Create(filename)
